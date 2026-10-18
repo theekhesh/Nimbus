@@ -89,4 +89,4 @@ Notes:
 - Use the devcontainer for reproducible local development and debugging.
 
 ## License & acknowledgements
-Nimbus is under GPL 3.0. Nimbus uses WebKitGTK (LGPL/MPL depending on platform versions) and respects the licenses of embedded components; see LICENSE and THIRD-PARTY.md for details.
+Nimbus is under GNU General Public License v3.0. Nimbus uses WebKitGTK (LGPL/MPL depending on platform versions) and respects the licenses of embedded components; see LICENSE and THIRD-PARTY.md for details.
