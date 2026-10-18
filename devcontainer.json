@@ -1,9 +1,0 @@
-{
-  "name": "light-browser-dev",
-  "build": { "dockerfile": "Dockerfile" },
-  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-  "postCreateCommand": "./.devcontainer/setup.sh",
-  "remoteUser": "vscode",
-  "forwardPorts": [6080],
-  "mounts": ["source=${localWorkspaceFolder}/.ccache,target=/home/vscode/.ccache,type=bind"]
-}
