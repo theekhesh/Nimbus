@@ -1,0 +1,8 @@
+{
+  "name": "nimbus-dev",
+  "build": { "dockerfile": "Dockerfile" },
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "postCreateCommand": "bash ./nimbus_setup.sh || true",
+  "remoteUser": "vscode",
+  "forwardPorts": [6080]
+}
